@@ -1,1 +1,3 @@
-export const API_BASE = "http://localhost:5000/api";
+// frontend/src/api.js
+// Exposes API_BASE for all frontend code to use
+export const API_BASE = import.meta.env.VITE_API_BASE || "https://linkedin-clone-appdost.onrender.com/api";
